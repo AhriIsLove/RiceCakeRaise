@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 20a190ab3010d6e45bb7e05cdad67ba4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - g_RaiseCountEffect: {fileID: 2408808468268118151, guid: b2864066510a7634ba3e108bccb22ca8, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
