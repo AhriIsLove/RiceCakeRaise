@@ -40,6 +40,9 @@ public class GameManagerScript : MonoBehaviour
     //파일 경로
     public string m_filePath;
 
+    //설정창
+    public GameObject g_SettingUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -209,6 +212,17 @@ public class GameManagerScript : MonoBehaviour
         Invoke("CreateRiceCake", 1.0f);
     }
 
+    /// <summary>
+    /// 설정창 On/Off
+    /// </summary>
+    public void OnSettingUI()
+    {
+        g_SettingUI.SetActive(!g_SettingUI.activeSelf);
+    }
+
+    /// <summary>
+    /// 테스트버튼
+    /// </summary>
     public void testFunction()
     {
         //돈복사 버그
@@ -260,7 +274,18 @@ public class GameManagerScript : MonoBehaviour
         UpdateUpgradeUI();
     }
 
-    void LoadData()
+    /// <summary>
+    /// 저장
+    /// </summary>
+    public void SaveData()
+    {
+
+    }
+
+    /// <summary>
+    /// 불러오기
+    /// </summary>
+    public void LoadData()
     {
 
     }
